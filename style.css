@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* This is where we will be styling your Nav bar. */
+
+.nav {
+  justify-content: space-between;
+  margin-top: 2rem;
+  align-items: center;
+  /* background-color: #14aacc; */
+  /* justify-content: center; */
+  /* background: blue; */
+}
+.nav > p:hover {
+  cursor: pointer;
+  background: #14aacc;
+  transition: ease-in-out 1s;
+  border: 14px;
+}
+
+.logo {
+  border-radius: 40px;
+  border: 3px solid #14aacc;
+}
+.logo p {
+  align-items: center;
+  padding: 0.5rem;
+  color: rgb(10, 5, 5);
+}
+.logo:hover {
+  background: #14aacc;
+  cursor: pointer;
+}
+.box p {
+  border-radius: 40px;
+  border: 3px solid rgb(17, 188, 235);
+  padding: 0.2rem 0.2rem;
+  cursor: pointer;
+  justify-content: flex-end;
+}
+.box h2 {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+
+.box p:hover {
+  transition: ease-in-out 1s;
+  background-color: rgb(17, 188, 235);
+}
