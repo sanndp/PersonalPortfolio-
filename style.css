@@ -61,3 +61,35 @@
   transition: ease-in-out 1s;
   background-color: rgb(17, 188, 235);
 }
+
+/* this is the end of nav section. WiLL come back soon */
+
+/* This is start of hero section  */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+.hero h3 {
+  margin-top: 2rem;
+  font-size: 40px;
+}
+.hero p {
+  margin-top: 1rem;
+  font-size: 20px;
+}
+
+.hero img {
+  margin-top: 2rem;
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+  border: 2px solid rgb(14, 166, 221);
+}
+.hero img:hover {
+  background: rgb(14, 166, 221);
+  transition: ease-in-out 2s;
+}
